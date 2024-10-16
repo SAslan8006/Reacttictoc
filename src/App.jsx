@@ -10,7 +10,7 @@ const Game = () => {
 
 const Board = () => {
   return (
-    <div className='board' style={{ background: "lightgreen", display: "flex", flexWrap: "wrap", width: "306px" }}>
+    <div className='board' >
       <Box />
       <Box />
       <Box />
@@ -25,7 +25,7 @@ const Board = () => {
 }
 const Box = () => {
   return (
-    <div style={{ background: "lightgrey", width: "100px", height: "100px", border: "1px solid black" }}>
+    <div className='box'>
     </div>
   )
 }
