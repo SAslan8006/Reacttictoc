@@ -10,16 +10,21 @@
 }
 .board {
   background-color: lightgreen;
-  display: "flex";
-  flex-wrap: "wrap";
-  width: "306px";
+  display: flex;
+  flex-wrap: wrap;
+  width: 306px;
 }
 .box {
   background-color: lightgrey;
-  width: "100px";
-  height: "100px";
-  border: "1px solid black";
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  font-weight: 800;
 }
+
 .logo {
   height: 6em;
   padding: 1.5em;
